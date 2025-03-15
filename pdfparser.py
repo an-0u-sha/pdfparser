@@ -5,9 +5,8 @@ import os
 import pandas as pd
 import camelot
 
-pdf_path = "/Users/anousha_puvvala/Downloads/manual_extraction-pages-3-pages-2.pdf"
-output_folder = "/Users/anousha_puvvala/Desktop/extracted_images"
-os.makedirs(output_folder, exist_ok=True)
+pdf_path = "/Users/anousha_puvvala/Downloads/manual_extraction-pages/manual_extraction-pages-2.pdf"
+
 
 def extract_text(pdf_path):
     extracted_text = ""
@@ -20,7 +19,7 @@ def extract_text(pdf_path):
     
     # if theres no selectable text is found, using OCR
     if not extracted_text.strip():
-        print("No selectable text found. Using OCR...")
+        print("No selectable text found. using ocr")
         images = convert_from_path(pdf_path)
         for img in images:
             ocr_text = pytesseract.image_to_string(img, config="--psm 6")  
@@ -59,12 +58,16 @@ def extract_images(pdf_path, output_folder):
 
     return images_extracted
 
+output_folder = "/Users/anousha_puvvala/Desktop/extracted_images"
+os.makedirs(output_folder, exist_ok=True)
+
+txt_output = "/Users/anousha_puvvala/Desktop/extracted_text.txt"
 text_output = extract_text(pdf_path)
+with open(txt_output, "w", encoding="utf-8") as file:
+    file.write("Extracted Text:\n")
+    file.write(text_output + "\n\n")
 tables_output = extract_tables(pdf_path)
 images_output = extract_images(pdf_path, output_folder)
-
-print("Extracted Text:\n")
-print(text_output)
 
 print("\n Extracted Tables:")
 for i, table in enumerate(tables_output):
