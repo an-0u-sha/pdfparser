@@ -20,7 +20,7 @@ def extract_text(pdf_path):
     
     # if theres no selectable text is found, using OCR
     if not extracted_text.strip():
-        print("[INFO] No selectable text found. Using OCR...")
+        print("No selectable text found. Using OCR...")
         images = convert_from_path(pdf_path)
         for img in images:
             ocr_text = pytesseract.image_to_string(img, config="--psm 6")  
