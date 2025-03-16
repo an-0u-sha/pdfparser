@@ -1,308 +1,106 @@
-Extracted Text:
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                    1  Introduction                 
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-          Introduction                                                              
-                 In this section                                                    
-                          1.1 Technical Reference Manual. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1-2
-                            1.1.1 Manual overview. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1-2
-                            1.1.2 User's Reference Manual. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1-3
-                                                                                    
-                            1.1.3 Conventions used. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-3
-                          1.2 Essential Performance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-4
-                                                                                    
-                          1.3 CARESCAPE R860. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-5
-                          1.4 Ventilator overview. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1-7
-                          1.5 Display controls and indicators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-9
-                                                                                    
-                          1.6 Ventilator display. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1-10
-                          1.7 Symbols used in the manual or on the equipment. . . . . . . . . . . . . . . .1-12
-                            1.7.1 Symbols on the equipment. . . . . . . . . . . . . . . . . . . . . . . . . . . .1-12
-                                                                                    
-                            1.7.2 Symbols on the user interface. . . . . . . . . . . . . . . . . . . . . . . . . 1-14
-                            1.7.3 Symbols on the packaging. . . . . . . . . . . . . . . . . . . . . . . . . . . .1-16
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-          2065496-001 Rev F (2022 09)                                   1-1         
-                                                                                    
-                                                                                    
 
-                                                                                    
-                                                                                    
-                                                                                    
-          CARESCAPE  R860                                                           
-                                                                                    
-                                                                                    
-          1.1 Technical Reference   Manual                                          
-                                                                                    
-                          The information contained in this Technical Reference Manual pertains only to
-                          those models of products which are marketed by Datex-Ohmeda as of the
-                          effective date of this manual or the latest revision thereof. This Technical
-                          Reference Manual was prepared for exclusive use by Datex-Ohmeda service
-                          personnel in light of their training and experience as well as the availability to
-                          them of parts, proper tools and test equipment. Consequently, Datex-Ohmeda
-                          provides this Technical Reference Manual to its customers purely as a business
-                          convenience and for the customer's general information only without warranty
-                          of the results with respect to any application of such information. Furthermore,
-                          because of the wide variety of circumstances under which maintenance and
-                          repair activities may be performed and the unique nature of each individual's
-                          own experience, capacity, and qualifications, the fact that customer has
-                          received such information from Datex-Ohmeda does not imply in any way that
-                          Datex-Ohmeda deems said individual to be qualified to perform any such
-                          maintenance or repair service. Moreover, it should not be assumed that every
-                          acceptable test and safety procedure or method, precaution, tool, equipment or
-                          device is referred to within, or that abnormal or unusual circumstances, may not
-                          warrant or suggest different or additional procedures or requirements.
-                          This manual is subject to periodic review, update and revision. Customers are
-                          cautioned to obtain and consult the latest revision before undertaking any
-                          service of the equipment.                                 
-                 CAUTION  Servicing of this product in accordance with this Technical
-                          Reference Manual should never be undertaken in the absence of
-                          proper tools, test equipment and the most recent revision to this
-                          service manual which is clearly and thoroughly understood.
-                                                                                    
-                                                                                    
-               1.1.1 Manual overview                                                
-                                                                                    
-                          This manual covers service information for the CARESCAPE R860 ventilator.
-                          This manual covers the following components:              
-                                                                                    
-                          •  Display unit                                           
-                          •  Integral electronics                                   
-                          •  Gas delivery components                                
-                          •  Frame components                                       
-                                                                                    
-                          Other equipment                                           
-                          Other equipment may be attached to the system. Refer to separate
-                          documentation relative to these items for details.        
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-          1-2                                              2065496-001 Rev F (2022 09)
-                                                                                    
-                                                                                    
 
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                1 Introduction      
-                                                                                    
-                                                                                    
-                                                                                    
-               1.1.2 User's Reference Manual                                        
-                                                                                    
-                                                                                    
-                          Refer to the CARESCAPE R860 User’s Reference Manual for additional
-                          information about the operation of the system. Software 10 Users reference
-                          manual 2065490-001. Software 11 User's Reference manual 5839923.
-                                                                                    
-                                                                                    
-               1.1.3 Conventions used                                               
-                                                                                    
-                                                                                    
-                          Hard keys                                                 
-                          Names of the hard keys on the face of the display and modules are written in bold
-                          typeface. Example:                                        
-                                                                                    
-                          Home                                                      
-                                                                                    
-                                                                                    
-                          Menu selections                                           
-                          Menu selections are written in bold italic typeface. Example:
-                                                                                    
-                          Procedures                                                
-                                                                                    
-                                                                                    
-                          Messages                                                  
-                          Messages that are displayed on the screen are enclosed in single quotes. Example:
-                                                                                    
-                          ‘Temp High’                                               
-                                                                                    
-                                                                                    
-                          Sections and headings                                     
-                          When referring to different sections or headings in this Technical Reference Manual, the
-                          name is written in italic typeface and is enclosed in double quotes. Example:
-                                                                                    
-                          "2 Theory of Operation"                                   
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-          2065496-001 Rev F (2022 09)                                   1-3         
-                                                                                    
-                                                                                    
+### Page 1 ###
+# 2.3 Display unit 
 
-                                                                                    
-                                                                                    
-                                                                                    
-          CARESCAPE  R860                                                           
-                                                                                    
-                                                                                    
-          1.2 Essential Performance                                                 
-                                                                                    
-                          The essential performance of the system consists of:      
-                                                                                    
-                          •  Delivery of ventilation at the patient-connection port within the alarm limits
-                             set by the operator or the generation of an alarm.     
-                          The ventilator provides alarms relating to the following areas:
-                                                                                    
-                          •  Oxygen level                                           
-                          •  Airway pressure                                        
-                          •  Expired volume                                         
-                          •  AC Mains failure                                       
-                          •  Battery nears depletion                                
-                                                                                    
-                          •  Gas supply failure                                     
-                          •  Gas failure cross flow                                 
-                          Essential performance is maintained through using this Technical Reference
-                          Manual for repair, maintenance, and calibrations. See "3 Checkout Procedure",
-                          "5 Service Tests and Calibration", and "9 Repair Procedures".
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-          1-4                                              2065496-001 Rev F (2022 09)
-                                                                                    
-                                                                                    
+The display unit is physically separate from the ventilator chassis (connected through a single cable running through the display arm). The display unit contains four circuit boards: COM Express Module, carrier board, touch screen controller, and alarm light. The COM Express Module contains the CPU and RAM. The carrier board is the main circuit board and provides connections between all subsystems within the DU. The touch screen controller manages the touch screen and communicates to the system with a serial connection. The alarm light provides a redundant visual alarm indicator.
+The display unit communicates with the remainder of the system via the Motherboard using five digital channels. Settings and alarm annunciation information are directly relayed to the VMB and VCB from the display unit. The display is a 38 cm active matrix LCD with 8 bits per color and a LED background.
+In the event of a display unit communications failure, the system will continue to ventilate at the current settings.
 
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                1 Introduction      
-                                                                                    
-                                                                                    
-          1.3 CARESCAPE     R860                                                    
-                                                                                    
-                          The CARESCAPE R860 combines sophisticated technology and an intuitive
-                          user interface. Icons represent configurable views of past (historical trends),
-                          present (patient status), and future patient needs (clinical decision support).
-                          The ventilator consists of a display, ventilator unit, cart with AC outlet (optional),
-                          EVair compressor (optional), and module bay with gas module (optional).
-                          A wide selection of performance options give the user full control of the system
-                          configuration. This ventilator is a complete system featuring patient ventilation,
-                          monitoring, and the capability of interfacing with central monitoring. Full
-                          touchscreen capability allows the user to quickly and easily access patient
-                          information and procedures.                               
-                          This ventilator supports adult, pediatric, and neonatal patients. The basic
-                          ventilator is equipped with adult and pediatric patient type software. The
-                          neonatal software option can be added or the ventilator can be set to enable
-                          the Neonatal-Only option. When the Neonatal-Only option is set, the ventilator
-                          is only intended to be used for neonatal patients and will not be able to enter
-                          the adult or pediatric patient types. This ventilator comes with standard
-                          ventilation modes as well as a purchasable neonatal patient option, ventilation
-                          modes, and clinical decision support features.            
-                          Configurations available for this product depend on local market and standards
-                          requirements. Illustrations or photos in this manual may not represent all
-                          configurations of the product. This manual does not cover the operation of
-                          every accessory. Refer to the accessory documentation for further information.
-                          The assembly of the ventilator system and modifications during its service life
-                          require evaluation to ensure the requirements of IEC 60601-1:2005 are met.
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-                                                                                    
-          2065496-001 Rev F (2022 09)                                   1-5         
-                                                                                    
-                                                                                    
+### 2.3.1 Display unit software requirements
+
+The display unit uses USB media to manage software upgrades and to run the Service Application diagnostics.
+
+### 2.3.2 Display unit connections
+
+The display unit accommodates the following connections:
+![img-0.jpeg](img-0.jpeg)
 
 
 
+### Page 2 ###
+1. Display unit connection
+2. VGA connection (not for clinical use)
+3. Port 6 - RS232 serial communication
+4. Port 5 - RS232 serial communication (service connection)
+5. Ethernet connection (not supported)
+6. Ethernet connection (not supported)
+7. USB connection - standard USB 2.0 interface (not supported)
+8. USB connection - standard USB 2.0 interface - system software download port (service use only)
+
+# 2.3.3 Communication port connections 
+
+## Datex-Ohmeda Com connection
+
+Port 5 (1) and 6 (2) interface cables must be shielded.
+An authorized service representative is required to install the Datex-Ohmeda Com isolation cable prior to using the Ohmeda Com communication feature.
+
+Note The delay time from the onset of an alarm condition to the signal leaving the Ohmeda Com port is up to two seconds. The facility is responsible for any additional delays introduced by equipment connected to the display ports.
+
+Only the ventilator should be relied upon for alarm signal generation and information. Do not rely on the communication port connection for distribution and receipt of alarm signals.
+
+The Port 5 (1) and Port 6 (2) connectors allow serial input/output of commands and data. The 9 pin connectors are located on the back of the display unit and are labelled Port 5 and Port 6. The output protocol is available at www.datexohmeda.com (under Products/Interfacing Commitment Products) or by contacting GE Healthcare at InterfaceCommitment@ge.com.
+![img-1.jpeg](img-1.jpeg)
+
+1. Port 5
+2. Port 6
+
+Figure 2-1 $\cdot$ Communication Port 5 and Port 6
+
+
+
+### Page 3 ###
+![img-2.jpeg](img-2.jpeg)
+
+Figure 2-2 $\cdot$ Port 5 and Port 6 RS232 Serial communication port pin configuration
+
+# Nurse Call connection 
+
+Port 4 may be used to output alarm signals to a nurse call system. The ventilator will signal an alarm with a normally open or normally closed signal. The nurse call will be triggered by all medium and high priority alarms. When alarm audio is paused, the nurse call signal will be off.
+
+Note The delay time from the onset of an alarm condition to the alarm signal leaving the nurse call port is up to two seconds. The facility is responsible for any additional delays introduced by equipment connected to the nurse call port.
+![img-3.jpeg](img-3.jpeg)
+
+Figure 2-3 - Port 4 nurse call shown with isolation cables
+
+
+
+### Page 4 ###
+Load current:
+
+- Minimum: 100 uA at 100 mVdc
+- Maximum: 1 A at 30 Vdc
+- Relay isolated
+![img-4.jpeg](img-4.jpeg)
+
+Figure 2-4 $\cdot$ Communication Channels
+
+
+
+### Page 5 ###
+# 2.4 Main Enclosure 
+
+### 2.4.1 Ventilator Control Board
+
+The ventilator control board (VCB) is a Motorola Coldfire V4 CPU powered assembly that collects information from all ventilator system sensors (some indirectly from the VMB), and controls all actuators necessary to affect ventilation delivery.
+The VCB computes and supplies all ventilation sensor monitoring data for display on the display unit. If there are alarms to be generated based on this monitoring data, the VCB notifies the display unit to post the appropriate alarm message and audio sequence. The VCB observes the display unit's response to ensure that the alarm is adequately presented.
+To control ventilation, the VCB accepts ventilation parameters from the display unit. Measured data (waveform and numeric) is also sent to the display unit from the VCB. This data flow occurs on the 38.4 Kbaud, RS-422 communications link (VCB - display unit Data I/O).
+The VCB also communicates directly with the VMB every 2 ms , receiving expiratory flow, expiratory pressure and O 2 sensor data on the 921.6 Kbaud, RS-422 interface (VMB Sensor Data I/O). Barometric pressure data is also received from the VMB, but at a lower data rate.
+The following sensor information is acquired directly by the VCB:
+
+- Air Flow/Temp sensor through the $1^{2} \mathrm{C}$ interface at 250 Hz
+- O2 Flow/Temp sensor through the $1^{2} \mathrm{C}$ interface at 250 Hz
+- Total Flow/Temp sensor through the $1^{2} \mathrm{C}$ interface at 250 Hz
+- Inspiratory Pressure sensor via a differential analog signal - 12 bits at 1000 Hz
+- Auxiliary Pressure sensor via a differential analog signal - 12 bits at 1000 Hz
+- Proximal flow sensor via differential analog signal - 12 bits at 500 Hz
+
+The VCB contains actuator drive circuits for the following:
+
+- Air and O2 Flow Valves
+- Exhalation Valve
+- Inspiratory Pressure Sensor zeroing valve
+- Auxiliary Pressure Sensor purge flow valve
+
+The Flow Valve and Exhalation valve actuators are driven using current drive circuits and feedback controlled using current sense resistors. The VCB contains digital control signals for activating the inspiratory effort and safety relief valves (through the VMB) and the Piezo-Electric Nebulizer.
+The VCB receives 12.5 Vdc from the PMB, which it regulates down to various voltages for use by the board's digital circuits and analog drivers. These voltage levels are self-tested on the VCB. An additional power line is separately connected to an auxiliary buzzer on the VCB that provides a backup audio alarm source. The buzzer is normally on and must be kept silent by both the VCB and through a dedicated digital line coming from the VMB. A reset or
