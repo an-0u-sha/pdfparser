@@ -73,7 +73,7 @@ def crop_image_from_pdf(page_img, img_data, save_path):
 output_content = []
 
 for page_index, page in enumerate(ocr_dict.get("pages", [])):
-    page_text = f"\n\n### Page {page_index + 1} ###\n"
+    page_text = f"\n\nPage {page_index + 1}\n{'=' * 40}\n"
 
     # extraction of text without tables
     if "markdown" in page:
@@ -86,6 +86,10 @@ for page_index, page in enumerate(ocr_dict.get("pages", [])):
         image_references = re.findall(r"!\[.*?\]\((.*?)\)", page["markdown"])
         
         for line in lines:
+            line=line.strip()
+            # removing image references from the txt file (e.g., ![img-0.jpeg](img-0.jpeg))
+            if re.match(r"!\[.*?\]\(.*?\)", line):
+                continue
             if "|" in line:  # detection of table-like formatting
                 table_text.append(line)
                 inside_table = True

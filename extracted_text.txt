@@ -1,7 +1,8 @@
 
 
-### Page 1 ###
-# 2.3 Display unit 
+Page 1
+========================================
+# 2.3 Display unit
 
 The display unit is physically separate from the ventilator chassis (connected through a single cable running through the display arm). The display unit contains four circuit boards: COM Express Module, carrier board, touch screen controller, and alarm light. The COM Express Module contains the CPU and RAM. The carrier board is the main circuit board and provides connections between all subsystems within the DU. The touch screen controller manages the touch screen and communicates to the system with a serial connection. The alarm light provides a redundant visual alarm indicator.
 The display unit communicates with the remainder of the system via the Motherboard using five digital channels. Settings and alarm annunciation information are directly relayed to the VMB and VCB from the display unit. The display is a 38 cm active matrix LCD with 8 bits per color and a LED background.
@@ -14,11 +15,11 @@ The display unit uses USB media to manage software upgrades and to run the Servi
 ### 2.3.2 Display unit connections
 
 The display unit accommodates the following connections:
-![img-0.jpeg](img-0.jpeg)
 
 
 
-### Page 2 ###
+Page 2
+========================================
 1. Display unit connection
 2. VGA connection (not for clinical use)
 3. Port 6 - RS232 serial communication
@@ -28,7 +29,7 @@ The display unit accommodates the following connections:
 7. USB connection - standard USB 2.0 interface (not supported)
 8. USB connection - standard USB 2.0 interface - system software download port (service use only)
 
-# 2.3.3 Communication port connections 
+# 2.3.3 Communication port connections
 
 ## Datex-Ohmeda Com connection
 
@@ -40,7 +41,6 @@ Note The delay time from the onset of an alarm condition to the signal leaving t
 Only the ventilator should be relied upon for alarm signal generation and information. Do not rely on the communication port connection for distribution and receipt of alarm signals.
 
 The Port 5 (1) and Port 6 (2) connectors allow serial input/output of commands and data. The 9 pin connectors are located on the back of the display unit and are labelled Port 5 and Port 6. The output protocol is available at www.datexohmeda.com (under Products/Interfacing Commitment Products) or by contacting GE Healthcare at InterfaceCommitment@ge.com.
-![img-1.jpeg](img-1.jpeg)
 
 1. Port 5
 2. Port 6
@@ -49,36 +49,36 @@ Figure 2-1 $\cdot$ Communication Port 5 and Port 6
 
 
 
-### Page 3 ###
-![img-2.jpeg](img-2.jpeg)
+Page 3
+========================================
 
 Figure 2-2 $\cdot$ Port 5 and Port 6 RS232 Serial communication port pin configuration
 
-# Nurse Call connection 
+# Nurse Call connection
 
 Port 4 may be used to output alarm signals to a nurse call system. The ventilator will signal an alarm with a normally open or normally closed signal. The nurse call will be triggered by all medium and high priority alarms. When alarm audio is paused, the nurse call signal will be off.
 
 Note The delay time from the onset of an alarm condition to the alarm signal leaving the nurse call port is up to two seconds. The facility is responsible for any additional delays introduced by equipment connected to the nurse call port.
-![img-3.jpeg](img-3.jpeg)
 
 Figure 2-3 - Port 4 nurse call shown with isolation cables
 
 
 
-### Page 4 ###
+Page 4
+========================================
 Load current:
 
 - Minimum: 100 uA at 100 mVdc
 - Maximum: 1 A at 30 Vdc
 - Relay isolated
-![img-4.jpeg](img-4.jpeg)
 
 Figure 2-4 $\cdot$ Communication Channels
 
 
 
-### Page 5 ###
-# 2.4 Main Enclosure 
+Page 5
+========================================
+# 2.4 Main Enclosure
 
 ### 2.4.1 Ventilator Control Board
 
