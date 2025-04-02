@@ -2,105 +2,205 @@
 
 Page 1
 ========================================
-# 2.3 Display unit
+# CARESCAPE ${ }^{\text {TM }}$ Respiratory Modules E-sCO(V), E-sCAiO(V), E-sCOVX, E-sCAiOVX
 
-The display unit is physically separate from the ventilator chassis (connected through a single cable running through the display arm). The display unit contains four circuit boards: COM Express Module, carrier board, touch screen controller, and alarm light. The COM Express Module contains the CPU and RAM. The carrier board is the main circuit board and provides connections between all subsystems within the DU. The touch screen controller manages the touch screen and communicates to the system with a serial connection. The alarm light provides a redundant visual alarm indicator.
-The display unit communicates with the remainder of the system via the Motherboard using five digital channels. Settings and alarm annunciation information are directly relayed to the VMB and VCB from the display unit. The display is a 38 cm active matrix LCD with 8 bits per color and a LED background.
-In the event of a display unit communications failure, the system will continue to ventilate at the current settings.
+Monitoring respiratory and ventilatory parameters for adult, pediatric and neonatal patients in anesthesia and critical care applications
 
-### 2.3.1 Display unit software requirements
 
-The display unit uses USB media to manage software upgrades and to run the Service Application diagnostics.
+This family of compact respiratory modules is designed to support respiratory monitoring in anesthesia and critical care areas. Depending on the module type, host device software version and the clinical application, they provide measurements of airway gases, anesthetic agents with agent identification, Patient Spirometry and Gas Exchange. The modules are compliant with IEC 60601-1 3rd edition.
 
-### 2.3.2 Display unit connections
+## Features
 
-The display unit accommodates the following connections:
+- Airway gases measured by the sidestream method
+- Eight module versions available to meet the needs of various care areas
+- All parameter values sampled proximal at the patient's airway with a single gas sampling line, D -lite(+)(++) or Pedilite(+) flow sensor, along with an additional Spirometry tube
+- Et and Fi values updated breath by breath
+- Fast oxygen measurement for accurate $\mathrm{EtO}_{2}$ and $\mathrm{FiO}_{2}$ values
+- Automatic identification of anesthetic agents
+- Detects end inspiratory and end expiratory occlusions automatically and displays values for Statis Plat, Static PEEPi+e and Static Compliance
+- Calculated balance gas value for estimating the $\mathrm{N}_{2}$-concentration
+- Very compact size, low weight and low power consumption
+
+
+## Clinical measurements
+
+- $\mathrm{CO}_{2}$ and $\mathrm{N}_{2} \mathrm{O}$ - GE infrared technology: Inspired and endtidal values, $\mathrm{CO}_{2}$ waveform and respiration rate
+- Respiration rate - calculated from the $\mathrm{CO}_{2}$ waveform
+- Anesthetic agents - GE infrared technology
+- Measures and identifies all five agents and two agent mixtures: halothane, enflurane, isoflurane, sevoflurane and desflurane
+- MAC (Minimum Alveolar Concentration)
+- MACage with age, temperature and ambient pressure compensation
+- Patient oxygen - GE paramagnetic oxygen $\left(\mathrm{O}_{2}\right)$ technology: Inspired, end-tidal and Fi-Et difference, waveform
+- Patient Spirometry - Designed to measure true patient values independent of the ventilator with GE-patented D-lite(+)(++) and Pedi-lite(+) flow sensors and gas samplers at the patient airway
+- Numerical values for airway pressure, minute and tidal volumes, compliance, airway resistance and I:E ratio values, and flow and airway pressure waveforms
+- Continuous measurement of intrinsic, extrinsic and total PEEP
+- Pressure-volume and flow-volume loops
+- Ability to store and print up to six loops
+- Recall saved loops to compare to current loop
+- Module keys to save or change loop view
+- Gas exchange - Non-invasive and continuous measurement
+- Oxygen consumption $\left(\mathrm{VO}_{2}\right)$ and carbon dioxide production $\left(\mathrm{VCO}_{2}\right)$
+- Values for energy expenditure (EE) and respiratory quotient (RQ)
 
 
 
 Page 2
 ========================================
-1. Display unit connection
-2. VGA connection (not for clinical use)
-3. Port 6 - RS232 serial communication
-4. Port 5 - RS232 serial communication (service connection)
-5. Ethernet connection (not supported)
-6. Ethernet connection (not supported)
-7. USB connection - standard USB 2.0 interface (not supported)
-8. USB connection - standard USB 2.0 interface - system software download port (service use only)
+## Technical specifications
 
-# 2.3.3 Communication port connections
+## General
 
-## Datex-Ohmeda Com connection
+When monitoring neonatal or other patients that have high respiration rate or low tidal volume these modules shall be used within the limits of respiration rates and tidal volumes to ensure specified measurement accuracy.
 
-Port 5 (1) and 6 (2) interface cables must be shielded.
-An authorized service representative is required to install the Datex-Ohmeda Com isolation cable prior to using the Ohmeda Com communication feature.
+Sampling flow $120 \pm 20 \mathrm{ml} / \mathrm{min}$
+Size and fit of gas sampling accessories may impact measured gas concentration values at low tidal volumes. Always ensure use of appropriate accessories according to patient and application.
 
-Note The delay time from the onset of an alarm condition to the signal leaving the Ohmeda Com port is up to two seconds. The facility is responsible for any additional delays introduced by equipment connected to the display ports.
+Automatic compensation for atmospheric pressure variation (660-1060 mbar), temperature and $\mathrm{CO}_{2}, \mathrm{O}_{2}, \mathrm{~N}_{2} \mathrm{O}$, agent cross effect compensation. Parameter display update interval typically breath-by-breath.
 
-Only the ventilator should be relied upon for alarm signal generation and information. Do not rely on the communication port connection for distribution and receipt of alarm signals.
+Functional alarms for
 
-The Port 5 (1) and Port 6 (2) connectors allow serial input/output of commands and data. The 9 pin connectors are located on the back of the display unit and are labelled Port 5 and Port 6. The output protocol is available at www.datexohmeda.com (under Products/Interfacing Commitment Products) or by contacting GE Healthcare at InterfaceCommitment@ge.com.
+- Disconnected water trap
+- Partially blocked sample line or water trap
+- Low gas sampling flow
+- Blocked sample line or water trap
+- Blocked sample gas outflow
 
-1. Port 5
-2. Port 6
 
-Figure 2-1 $\cdot$ Communication Port 5 and Port 6
+## Letters in the module name stand for
+
+$s=$ Single-width module
+$\mathrm{C}=\mathrm{CO}_{2}$ and $\mathrm{N}_{2} \mathrm{O}$
+$\mathrm{Ai}=$ Anesthetic agents and agent identification
+$\mathrm{O}=$ Patient $\mathrm{O}_{2}$
+$\mathrm{V}=$ Patient Spirometry
+$X=$ Gas Exchange metabolics $\dot{\mathrm{V}} \mathrm{O}_{2}, \dot{\mathrm{~V}} \mathrm{CO}_{2}, \mathrm{RQ}$ and EE
+
+## Non-disturbing gases
+
+- Ethanol, acetone, isopropanol, methane, nitrogen, nitric oxide, carbon monoxide, water vapor and freon R134A.
+- Maximum effect of non-disturbing gases on readings: $\mathrm{O}_{2} \& \mathrm{~N}_{2} \mathrm{O}<2 \mathrm{vol} \%, \mathrm{CO}_{2}<0.2 \mathrm{vol} \%, \mathrm{AA}<0.15 \mathrm{vol} \%$.
+
+
+## Carbon dioxide $\left(\mathrm{CO}_{2}\right)$
+
+GE infrared absorption sensor technology
+$\mathrm{CO}_{2}$ waveform
+
+(0 to $15 \mathrm{kPa}, 0$ to 113 mmHg )
+
+Adjustable low and high alarm limits for $\mathrm{EtCO}_{2}$ or $\mathrm{FiCO}_{2}$
+
+## Respiration rate (RR)
+
+Measurement range
+Detection criteria
+Accuracy
+
+$$
+\begin{aligned}
+& 4 \text { to } 100 \text { breaths/min } \\
+& 1 \text { vol\% change in } \mathrm{CO}_{2} \text { level } \\
+& \pm 1 / \mathrm{min} \text { in the range } \\
+& 4 \text { to } 20 \text { breaths/min } \\
+& \pm 5 \% \text { in the range } \\
+& 20 \text { to } 100 \text { breaths/min }
+\end{aligned}
+$$
+
+Alarm note sent to host device if no breath detected in 20 seconds
+
+## Patient oxygen $\left(\mathrm{O}_{2}\right)$
+
+GE differential paramagnetic sensor
+$\mathrm{O}_{2}$ waveform
+
+## Nitrous oxide $\left(\mathrm{N}_{2} \mathrm{O}\right)$
+
+GE infrared absorption sensor
+
+Note: $\mathrm{N}_{2} \mathrm{O}$ is only displayed with CARESCAPE ANE and PACU software
+
+## Anesthetic agent (AA)
+
+GE infrared absorption sensor
+Anesthetic agent waveform
+
 
 
 
 Page 3
 ========================================
+MAC or MACage value options for hosts
+Agent mixture detection
+Measurement range
+Sevoflurane 0 to 8 vol\%
+Desflurane 0 to 20 vol\%
+Isoflurane, enflurane, halothane 0 to 6 vol\%
+$\pm(0.15 \mathrm{vol} \%+5 \%$ of reading $)$
 
-Figure 2-2 $\cdot$ Port 5 and Port 6 RS232 Serial communication port pin configuration
+## Agent identification
 
-# Nurse Call connection
+Identification threshold $\quad 0.15 \mathrm{vol} \%$
+Detection time $\quad<20 \mathrm{sec}$
 
-Port 4 may be used to output alarm signals to a nurse call system. The ventilator will signal an alarm with a normally open or normally closed signal. The nurse call will be triggered by all medium and high priority alarms. When alarm audio is paused, the nurse call signal will be off.
+## Patient Spirometry
 
-Note The delay time from the onset of an alarm condition to the alarm signal leaving the nurse call port is up to two seconds. The facility is responsible for any additional delays introduced by equipment connected to the nurse call port.
+Pressure-volume loop, flow-volume loop, airway pressure and flow waveforms updated breath by breath
+Adjustable low and high alarm limits for Ppeak, PEEPtot and MVexp
 
-Figure 2-3 - Port 4 nurse call shown with isolation cables
+Messages for MVexp << MVinsp and for low volumes
+Through selection of D-lite or Pedi-lite gas sampling and flow sensor from menu, the following specifications apply:
+
+Airway resistance
+
+The presence of xenon or helium in the breathing circuit causes incorrect measurement values.
+
+## Sensor specifications
+
+Gas Exchange and metabolics ${ }^{+}$
+$\dot{\mathrm{V}} \mathrm{O}_{2} \quad$ Oxygen consumption
+$\dot{\mathrm{V}} \mathrm{CO}_{2} \quad$ Carbon dioxide production
+Measurement range 20 to $999 \mathrm{ml} / \mathrm{min}$
+Respiration Rate range Adult 4 to 35 breaths/min Pediatric 8 to 35 breaths/min
+$\dot{\mathrm{V}} \mathrm{CO}_{2}$ and $\dot{\mathrm{V}} \mathrm{O}_{2}$ Accuracy $\quad \mathrm{FiO}_{2}<65 \mathrm{vol} \%$ (and $\mathrm{RR} \leq 30$ breaths/ min for D-lite++): $\pm 10 \%$ or 10 ml , whichever is greater
+$\mathrm{FiO}_{2} 65 \ldots 85 \mathrm{vol} \%$ (or $\mathrm{RR}>30$ breaths/min for D-lite++): $\pm 15 \%$ or 15 ml , whichever is greater
+
+CARESCAPE monitors B850 and B650 calculate and display Energy expenditure (EE) and Respiratory Quotient (RQ).
+
+The presence of xenon, $\mathrm{N}_{2} \mathrm{O}$ or helium in the breathing circuit causes incorrect measurement values.
+${ }^{+}$Measurement not applicable for neonatal patients
+${ }^{\dagger}$ Calculated by host device. For more information on other host devices, refer to their user documentation.
+
+## System compatibility
+
+- CARESCAPE Monitor B850
+- CARESCAPE Monitor B650
+- CARESCAPE Monitor B450
+- B40(i) Patient Monitor
+- Aisys CS ${ }^{2}$
+- Avance ${ }^{\text {im }} \mathrm{CS}^{2}$
+- Carestation 620/650/650c
+
+Displayed data (including but not limited to TV, MV, RR, Raw and $\mathrm{N}_{2} \mathrm{O}$ ) trends and alarms may vary depending on the host device. Specifications listed represent the capabilities of the modules. All module measurement options (Ai, V, X) may not be available in all host devices. Always check the host device's User Manual for additional information.
 
 
 
 Page 4
 ========================================
-Load current:
+# Environmental specifications
 
-- Minimum: 100 uA at 100 mVdc
-- Maximum: 1 A at 30 Vdc
-- Relay isolated
+## Operating conditions
 
-Figure 2-4 $\cdot$ Communication Channels
+## Storage conditions
 
+## Physical specifications
 
+Dimensions $(\mathrm{H} \times \mathrm{W} \times \mathrm{D})$, excluding water trap
 
-Page 5
-========================================
-# 2.4 Main Enclosure
+Weight
 
-### 2.4.1 Ventilator Control Board
+$112 \times 37 \times 205 \mathrm{~mm}$
+$(4.4 \times 1.5 \times 8.1 \mathrm{in})$
+0.7 kg (1.5 lb)
 
-The ventilator control board (VCB) is a Motorola Coldfire V4 CPU powered assembly that collects information from all ventilator system sensors (some indirectly from the VMB), and controls all actuators necessary to affect ventilation delivery.
-The VCB computes and supplies all ventilation sensor monitoring data for display on the display unit. If there are alarms to be generated based on this monitoring data, the VCB notifies the display unit to post the appropriate alarm message and audio sequence. The VCB observes the display unit's response to ensure that the alarm is adequately presented.
-To control ventilation, the VCB accepts ventilation parameters from the display unit. Measured data (waveform and numeric) is also sent to the display unit from the VCB. This data flow occurs on the 38.4 Kbaud, RS-422 communications link (VCB - display unit Data I/O).
-The VCB also communicates directly with the VMB every 2 ms , receiving expiratory flow, expiratory pressure and O 2 sensor data on the 921.6 Kbaud, RS-422 interface (VMB Sensor Data I/O). Barometric pressure data is also received from the VMB, but at a lower data rate.
-The following sensor information is acquired directly by the VCB:
-
-- Air Flow/Temp sensor through the $1^{2} \mathrm{C}$ interface at 250 Hz
-- O2 Flow/Temp sensor through the $1^{2} \mathrm{C}$ interface at 250 Hz
-- Total Flow/Temp sensor through the $1^{2} \mathrm{C}$ interface at 250 Hz
-- Inspiratory Pressure sensor via a differential analog signal - 12 bits at 1000 Hz
-- Auxiliary Pressure sensor via a differential analog signal - 12 bits at 1000 Hz
-- Proximal flow sensor via differential analog signal - 12 bits at 500 Hz
-
-The VCB contains actuator drive circuits for the following:
-
-- Air and O2 Flow Valves
-- Exhalation Valve
-- Inspiratory Pressure Sensor zeroing valve
-- Auxiliary Pressure Sensor purge flow valve
-
-The Flow Valve and Exhalation valve actuators are driven using current drive circuits and feedback controlled using current sense resistors. The VCB contains digital control signals for activating the inspiratory effort and safety relief valves (through the VMB) and the Piezo-Electric Nebulizer.
-The VCB receives 12.5 Vdc from the PMB, which it regulates down to various voltages for use by the board's digital circuits and analog drivers. These voltage levels are self-tested on the VCB. An additional power line is separately connected to an auxiliary buzzer on the VCB that provides a backup audio alarm source. The buzzer is normally on and must be kept silent by both the VCB and through a dedicated digital line coming from the VMB. A reset or
+## Imagination at work
