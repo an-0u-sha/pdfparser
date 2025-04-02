@@ -51,6 +51,11 @@ images_dir = "/Users/anousha_puvvala/Desktop/extracted_images"
 os.makedirs(tables_dir, exist_ok=True)
 os.makedirs(images_dir, exist_ok=True)
 
+def convert_latex_subscripts(text):
+    pattern = r'\$\\mathrm{([A-Za-z]+)}_{(\d+)}\$'
+    converted_text = re.sub(pattern, r'\1<sub>\2</sub>', text)   
+    return converted_text
+    
 #cropping image from PDF using bounding box data 
 def crop_image_from_pdf(page_img, img_data, save_path):
     try:
@@ -120,7 +125,8 @@ for page_index, page in enumerate(ocr_dict.get("pages", [])):
                 crop_image_from_pdf(pdf_images[page_index], img_data, img_path)
 
     output_content.append(page_text)
-
+    
+cleaned_text = convert_latex_subscripts("\n\n".join(output_content))
 #saving formatted ocr text 
 with open(output_text_file, "w", encoding="utf-8") as f:
     f.write("\n\n".join(output_content) if output_content else "No text extracted.")
