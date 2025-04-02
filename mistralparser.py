@@ -13,7 +13,7 @@ pdf_images = convert_from_path(pdf_path)
 
 # setting up API key
 api_key = os.environ["MISTRAL_API_KEY"]
-pdf_path = "/Users/anousha_puvvala/Downloads/manual_extraction-pages-3-pages-2.pdf"
+pdf_path = "/Users/anousha_puvvala/Downloads/clinical-accessories-datasheet-carescape-respiratory-modules-doc2146306.pdf"
 client = Mistral(api_key=api_key)
 
 # uploading the pdf
